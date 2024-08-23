@@ -1,7 +1,10 @@
 import { useState } from 'react'
 import Folder from './components/Folder'
 import explorer from './data/Folderdata'
-// import './App.css'
+import Fun_com from './components/Fun_com'
+import Class_comp from './components/Class_com'
+import './index.css'
+import './App.css'
 
 function App() {
 
@@ -9,7 +12,8 @@ function App() {
 
   return (
     <>
-      <Folder explore={explore}/>
+      <Fun_com/>
+      <Class_comp/>
     </>
   )
 }
